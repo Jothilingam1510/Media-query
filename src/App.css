@@ -1,0 +1,224 @@
+.container{
+  display: flex;
+  justify-content: center;
+    justify-items: center;
+    height:fit-content;
+    width: fit-content;
+}
+
+.head{
+  width: fit-content;
+  padding-left: 150px;
+
+ 
+}
+.complex{
+  font-size: 3.75rem;
+  width: 500px;
+  line-height: 1.1;
+  word-wrap: break-word;
+  position: relative;
+  display: block;
+}
+.para{
+  line-height: 30px;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-right: 95px;
+  width: 500px;
+}
+
+.button{
+    text-transform: uppercase;
+    background-image: none;
+    border-style: none;
+    letter-spacing: 2px;
+    margin: 41px 196px 0 0;
+    background-color: #f1c50e !important;
+    padding: 10px 30px;
+    font-style: none;
+    text-decoration: none;
+}
+.image{
+    height: 500px;
+    width: 400px;
+    padding-top: 20px; 
+}
+.boxName{
+
+  display: flex;
+  padding-left: 200px;
+}
+.cardone{
+  width: 290px;
+  height: 260px;
+  margin-right: 25px ;
+  background-color: rgb(231, 228, 228);
+  padding-left: 25px;
+  margin-top: 20px;
+  }
+  .aboutus{
+  color: gold;
+  font-weight: bold;
+  font-size: 24px;
+  padding-top: 25px;
+  }
+  .paraforcard{
+  padding-top: 20px;
+  padding-right: 55px;
+  line-height: 25px;
+  font-size: 17px;
+  color: rgb(21, 20, 20);
+  }
+  .morelink{
+  padding-top: 25px;
+  }
+  a{
+    text-decoration: none;
+    color: rgb(21, 20, 20);
+  }
+  a:hover{
+    color:rgb(234, 200, 5)
+  }
+  hr{
+    margin-top: 1px;
+    border: 1px solid rgb(222, 190, 9);
+    margin-right: 246px;
+  }
+.bpara{
+  background-color: snow;
+  padding-left: 250px;
+  font-size: 19px;
+  margin-top: 20px;
+  word-spacing: 1px;
+}
+.nextButton{
+  text-transform: uppercase;
+  border-style: none;
+  letter-spacing: 2px;
+  background-color: #f1c50e;
+  padding: 10px 30px;
+  text-decoration: none;
+  margin: 41px auto 60px 600px;
+  
+}
+.nextButton:hover{
+  color: rgb(128, 171, 209);
+  background-color: black;
+}
+
+
+
+
+@media screen and (max-width: 576px){
+
+  .container{
+    display: block;
+   margin-right: 0%;
+  }
+  .complex{
+    width: 500px;
+    font-size: 1.75rem;
+  }
+  .para{
+    width: 500px;
+  }
+  .head{
+    padding-left: 10px;
+    
+  }
+  .boxName{
+    display: block;
+    padding-left: 20px;
+
+
+  }
+  .bpara{
+    width: 400px;
+    padding-left: 50px;
+    text-align: justify;
+  }
+  .nextButton{
+    background-color: #f1c50e;
+    text-decoration: none;
+    margin-left: 200px;
+  }
+  .cardone{
+    width:500px ;
+  }
+  .image{
+    padding-left: 40px;
+   
+  }
+}
+
+
+
+
+@media (min-width: 576px) and (max-width: 802px){
+  .container{
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .complex{
+    font-size: 2.5rem;
+    width: 400px;
+  }
+  .para{
+    width:400px ;
+  }
+  .image{
+    margin-left: 200px;
+  }
+  .boxName{
+    display: block;
+    margin-left: -100px;
+  }
+  .cardone{
+    width:500px ;
+    height: 200px;
+  }
+  .bpara{
+    margin-left: -130px;
+    width: 500px;
+  }
+  .nextButton{
+    margin-left: 300px;
+ 
+  }
+}
+
+
+
+@media (min-width: 802px) and (max-width: 992px){
+  .complex{
+    font-size: 3rem;
+    margin-left: -50px;
+    width: 400px;
+  }
+  .para{
+    margin-left: -50px;
+    width: 400px;
+  }
+  .image{
+    width:350px ;
+    margin-left: -100px;
+  }
+  .boxName{
+    margin-left: -100px;
+  }
+  .cardone{
+    display: inline;
+    width: 300px;
+    height: 300px;
+  }
+  .bpara{
+    margin-top: 50px;
+    margin-left: -100px;
+    width: 600px;
+  }
+  .nextButton{
+    margin-left: 400px;
+  }
+}
