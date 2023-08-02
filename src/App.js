@@ -8,7 +8,7 @@ import Button from './Components/Button ';
 function App() {
   const title=['About US' , 'Quick Tips' ,'Quality service']
   return (
-  <div>
+  <div >
     <div className='container'>
       <div class="head"> 
         <h1 class="complex" >Complex Service Your Car</h1>

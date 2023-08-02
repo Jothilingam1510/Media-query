@@ -1,13 +1,13 @@
 .container{
   display: flex;
-  justify-content: center;
-    justify-items: center;
+    justify-content: center;
+    justify-items:center ;
     height:fit-content;
     width: fit-content;
 }
 
 .head{
-  width: fit-content;
+  width:fit-content;
   padding-left: 150px;
 
  
@@ -39,7 +39,9 @@
     font-style: none;
     text-decoration: none;
 }
+
 .image{
+ 
     height: 500px;
     width: 400px;
     padding-top: 20px; 
@@ -72,6 +74,9 @@
   }
   .morelink{
   padding-top: 25px;
+  border-bottom: #f1c50e  solid ;
+  padding-bottom: 2px;
+  width: 40px;
   }
   a{
     text-decoration: none;
@@ -99,7 +104,9 @@
   background-color: #f1c50e;
   padding: 10px 30px;
   text-decoration: none;
-  margin: 41px auto 60px 600px;
+  margin-top: 41px ;
+  margin-left: 600px;
+  margin-bottom: 50px;
   
 }
 .nextButton:hover{
@@ -111,43 +118,58 @@
 
 
 @media screen and (max-width: 576px){
-
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
   .container{
-    display: block;
-   margin-right: 0%;
+    display: inline;
+    position: relative;
+    padding-left: 10px;
+    overflow-x:scroll;
   }
   .complex{
-    width: 500px;
+    width: 400px;
     font-size: 1.75rem;
   }
   .para{
-    width: 500px;
+    width: 400px;
+    text-align: justify;
   }
   .head{
-    padding-left: 10px;
+    padding-left: 40px;
+    width: 400px;
     
   }
   .boxName{
     display: block;
-    padding-left: 20px;
+    padding-left: 40px;
 
 
   }
   .bpara{
-    width: 400px;
-    padding-left: 50px;
-    text-align: justify;
+    width: 300px;
+    margin-left:-150px;
+    text-align: center;
   }
   .nextButton{
     background-color: #f1c50e;
     text-decoration: none;
-    margin-left: 200px;
+    margin-left: 150px ;
   }
   .cardone{
-    width:500px ;
+    width:400px ;
+    height: 200px;
+  }
+  .pic{
+    width: 400px;
   }
   .image{
-    padding-left: 40px;
+    padding-left: 20px;
+    width: 400px;
    
   }
 }
